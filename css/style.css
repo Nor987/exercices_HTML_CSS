@@ -1,39 +1,81 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* feuille de style pour le dossier des exercices ebook  */
+/* feuille de style pour le dossier des exercices ebook */
 
 body {
-    background-color: cornsilk;
+    background-color: #e1dce2;
 }
 
 /* styles pour la DL, les DT et les DD  */
 
 
 dl {
-    border: 2px solid orange;
+    border: 2px solid darkred;
     width: 50%;
     padding: 20px;
 }
 
 dt {
-    background-color: lightskyblue;
+    background-color: #464159;
     margin-top: 10px;
     font-weight: bold;
-    color:white;
+    color:#e1dce2;
     width: 50%;
 }
 
 dd {
-   
+   padding: 5px;
 }
 
 dl code {
-    background-color: whitesmoke;
+    background-color: #9cf196;
 }
 
-/* style pour bien voir les réponses aux questions  */
+/* style pour bien voir les réponses aux questions */
 .reponse {
-    background-color: gold;
+    background-color: #f3fe7e;
     font-style: italic;
+}
+
+.encadre {
+    background-color: white;
+    border: 2px solid darkred;
+    font-size: 120%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+a:link {
+    color: #009975;
+}
+
+/* abbr {
+    border-bottom: 1px dotted darkred;
+} */
+
+nav ul a:link {
+    color: #24009c;
+}
+
+blockquote {
+    background-color: #f5eaea;
+    text-indent: 15px;
+    padding: 5px;
+}
+
+.gras {
+    font-weight: bold;
+    /* font-weight: 900; */
+}
+
+ul li button a:link {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bouton {
+    list-style-type: none;
 }

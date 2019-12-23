@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo 2 - Réponse 2</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/mes_scripts.js"></script>
+
+    <style>
+
+        body {
+            background-color: #e1dce2;
+            color: #464159;
+            font-size: 17px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header l'en-tête principale de la page -->
+    <header>
+        <h1>Découper une page en sections logiques</h1>
+        <p>Ce titre et le paragraphe sont dans l'en-tête</p>
+    <!-- bien que ce ne soit pas obligatoire, on trouve dans l'en-tête un menu de navigation, le menu est parfois dans sa balise nav après l'en-tête -->
+    <nav>
+        <ul>
+            <li><a href="#">Navigation</a></li>
+            <li><a href="#">Qui sommes-nous ?</a></li>
+            <li><a href="#">Ce que nous faisons</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- une barre de recherche est un outil de navigation dans le site ; il est non linéaire (contrairement à la ul) -->
+        <!-- le formulaire de recherche du site -->
+        <form action="#">
+            <input type="search" name="cherche" placeholder="Recherchez">
+            <input type="submit" value="ok">
+        </form>
+    </nav>
+    </header>
+
+    <!-- voici le contenu principal, la balise MAIN, parfois un div id="main", ou div class="content"-->
+    <main>
+        <!-- article>h1{Titre de niveau 1}p{lorem}h2{Titre de niveau 2}p{autre paragraphe} -->
+        <article>
+            <h2>Titre de niveau 2</h2>
+            <p>Nostrud laborum et incididunt mollit incididunt cillum id ullamco nulla veniam ea deserunt. Consequat cillum ad excepteur laborum velit laborum duis proident cupidatat enim qui. Eiusmod aliqua nulla consectetur pariatur nulla voluptate occaecat nulla voluptate ullamco aliqua occaecat dolore quis. Excepteur ad aliquip magna eiusmod fugiat tempor cupidatat duis ut elit cillum excepteur. Adipisicing eiusmod tempor aliquip deserunt ex laboris ea pariatur ut sint.
+            </p>
+            <h3>Titre de niveau 3</h3>
+            <p>Cillum esse qui tempor commodo qui nulla aute Lorem dolor excepteur. Dolore mollit proident ut esse labore dolore laborum magna eu et consectetur est. Tempor tempor aliqua labore labore nostrud nulla enim et anim nostrud tempor occaecat. Ut laboris velit aliqua ad tempor velit adipisicing aute sunt dolor veniam. Deserunt consequat sunt irure deserunt excepteur enim quis. Aliqua irure eu ut fugiat minim et. Cillum magna aliqua aliqua occaecat et pariatur culpa enim.
+            </p>
+        </article>
+        <article>
+            <h2>Titre de niveau 2</h2>
+            <p>Esse proident ad labore sunt officia qui eiusmod labore aliquip. Sunt quis magna aliqua magna deserunt. Amet nulla sit consequat sint sint ipsum excepteur excepteur nulla laboris labore proident. Reprehenderit id non cillum velit officia amet tempor culpa culpa labore adipisicing nostrud pariatur. Magna sit in exercitation eiusmod dolor quis officia fugiat.
+            </p>
+            <h3>Titre de niveau 3</h3>
+            <p>Minim voluptate dolore sunt aliqua velit voluptate elit proident esse ut est velit. In amet magna pariatur voluptate dolore Lorem pariatur aute. Cupidatat veniam deserunt nisi ex magna eu. Tempor nisi incididunt sint aliquip non voluptate irure ipsum eiusmod ea est dolore.
+            </p>
+        </article>
+        <!-- le contenu placé sur le côté peut être aussi dans le contenu principal -->
+        <aside>
+            <!-- ul>li*5>a -->
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </aside>
+    </main>
+    <!-- et voici le pied de page principal utilisé sur les différentes pages du site -->
+    <footer>
+        &copy; DR : tout droit réservé test.inc
+    </footer>
+
+</body>
+
+</html>
