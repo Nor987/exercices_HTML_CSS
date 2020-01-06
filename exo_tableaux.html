@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tableaux HTML</title>
+
+    <style>
+
+        /* les styles pour la liste */
+        dl {
+            background-color: #484c7f;
+            color: white;
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            font-style: italic;
+        }
+
+        /* les styles pour les tableaux */
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            /* fusionner les bords de cellules */
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid #c2aadb;
+            text-align: center;
+            padding: 8px;
+        }
+
+        td {
+            border: 1px solid #c2aadb;
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* even : pair, odd : impair */
+        tr:nth-child(even) {
+            background-color: #ece3f5;
+        }
+
+        caption {
+            padding: 8px;
+            background-color: #c2aadb;
+            font-weight: bolder;
+        }
+
+        a:link {
+            color: #843bd1;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <h1>Des tableaux et une liste de définition</h1>
+
+    <dl>
+        <dt>Vacances</dt>
+        <dd>Période de congés des personnes en activité</dd>
+        <dt>Travail</dt>
+        <dd>Activité humaine organisée et utile - Ensemble de ces activités</dd>
+    </dl>
+    <hr>
+
+    <h2>Des tableaux</h2>
+
+    <!-- table>tr*6>td*3{cellule} -->
+    <!-- on peut mettre des ul/ol et li dans un tableau -->
+    <table>
+        <caption>Les plus grandes cie du monde</caption>
+        <tr>
+            <th>Compagnie</th>
+            <th>Contact</th>
+            <th>Pays</th>
+            <th>Téléphone</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.auchan.fr/" target="_blank" title="Auchan">Auchan</a></td>
+            <td>M<sup>me</sup> Auchan</td>
+            <td>France</td>
+            <td>09 69 32 59 59</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.carrefour.fr/" target="_blank" title="Carrefour">Carrefour</a></td>
+            <td>M<sup>r</sup> Carrefour</td>
+            <td>France</td>
+            <td>08 26 25 32 35</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.lidl.fr/" target="_blank" title="Lidl">Lidl</a></td>
+            <td>M<sup>lle</sup> Frau Lidl</td>
+            <td>Allemagne</td>
+            <td>0 800 90 03 43</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.e-leclerc.com/" target="_blank" title="Leclerc">Leclerc</a></td>
+            <td>M<sup>r</sup> Le Couennec</td>
+            <td>France</td>
+            <td>09 69 32 42 52</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.picard.fr/" target="_blank" title="Picard">Picard</a></td>
+            <td>M<sup>r</sup> Picard</td>
+            <td>France</td>
+            <td>0 820 16 00 39</td>
+        </tr>
+    </table>
+
+    <h2>Un tableau avec fusion de colonnes</h2>
+
+    <!-- table>tr*2>td*3 -->
+    <table>
+        <!-- colspan fusion de colonnes -->
+        <tr>
+            <th>Nom</th>
+            <th colspan="2">Mail</th>
+        </tr>
+        <tr>
+            <td>Père Noël</td>
+            <td><a href="mailto:papanoel@polesnord.pn">papanoel@polesnord.pn</a></td>
+            <td><a href="mailto:santa-claus@noel.fr">santa-claus@noel.fr</a></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Un tableau avec fusion de rangées</h2>
+
+    <!-- table>tr*3>td*2 -->
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Bill Gates</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Téléphone</td>
+            <td>06 56 97 58 32</td>
+        </tr>
+        <tr>
+            <td>04 54 58 74 18</td>
+        </tr>
+        <tr>
+            <td>04 54 58 85 65</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

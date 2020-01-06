@@ -1,0 +1,106 @@
+/* feuille de style pour la page 8 bits */
+
+body {
+    background-color: #f0efee;
+    display: block;
+}
+
+.jaune {
+    background-color: #F6EB0E;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.bleu2 {
+    background-color: #3A7ACA;
+}
+
+.bleu3 {
+    background-color: #081B6F;
+}
+
+.bleu4 {
+    background-color: #2140C9;
+}
+
+.bleu5 {
+    background-color: #4765EA;
+}
+
+.bleu6 {
+    background-color: #6E87F4;
+}
+
+.noir {
+    background-color: black;
+}
+
+.gris {
+    background-color: #9EA0A9;
+}
+
+.gris2 {
+    background-color: #67696E;
+}
+
+.gris3 {
+    background-color: #A8ABB6;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.marron {
+    background-color: #42311F;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.rouge2 {
+    background-color: #900303;
+}
+
+.vert {
+    background-color: green;
+}
+
+.peau {
+    background-color: #EABAA2;
+}
+
+.peau2 {
+    background-color: #CC7E56;
+}
+
+.peau3 {
+    background-color: #F5A472;
+}
+
+.rose {
+    background-color: #F17DE1;
+}
+
+.rose2{
+    background-color: #F12AD4;
+}
+
+table {
+    margin: 4.7%;
+    border-collapse: collapse;
+    display: inline-table;
+    vertical-align: text-bottom;
+}
+
+td {
+    width: 7px;
+    height: 7px;
+}
