@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* feuille de style de l'exo */
+
+body {
+    background-color: #ececeb;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 3em;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: #001618;
+}
+
+header {
+    background-color: #abc5bb;
+}
+
+main {
+    padding-top: 15px;
+}
+
+nav {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+nav a {
+    color: #02383c;
+    padding: 0.6em;
+    text-decoration: none;
+    border: 1px solid #abc5bb;
+}
+
+#logohaut {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+#logobas {
+    position: absolute;
+    top: 9%;
+    left: 95%;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #719192;
+    border-radius: 50%;
+}
+
+a {
+    color: #02383c;
+}
+
+a:hover {
+    background-color: #02383c;
+    color: #fff;
+}
+
+/* button a:link {
+    background-color: #fff;
+    color: #719192;
+} */
